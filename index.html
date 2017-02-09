@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Gato Loco</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src= "jquery-3.1.1.min.js"></script>
+</head>
+<body>
+    <div id="welcome" class="page1 container-fluid">
+        <ul class="nav nav-pills  pull-right">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Historial</a></li>
+        </ul>
+        <h1>Bienvenido a Gato Loco</h1>
+        <input type="text" id="nombre" class="form-control">
+        <button class="boton" id="btn" onclick="inicios()"><a>Iniciar Juegor</a></button>
+    </div>
+    <div id="player">
+        <form class="sheet2">
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="text" class="form-control" id="name1" placeholder="Emmanuel">
+            </div>
+            <div class="form-group">
+                <label>Email address</label>
+                <input type="text" class="form-control" id="name1" placeholder="Emmanuel">
+            </div>
+            <button class="boton" id="btn2"><a>Comenzar</a></button>
+        </form>
+    </div>
+    <div id="container">
+        <h1 class="text-center">GATTO LOCO</h1>
+        <div id="tablero">
+            <div id="num1" class="s celda"></div>
+            <div id="num2" class="s celda"></div>
+            <div id="num3" class="s celdas"></div>
+            <div id="num4" class="s celda"></div>
+            <div id="num5" class="s celda"></div>
+            <div id="num6" class="s celdas"></div>
+            <div id="num7" class="s x"></div>
+            <div id="num8" class="s x"></div>
+            <div id="num9" class="s xr"></div>
+        </div>
+        <div id="consola" class="text-center">
+            <button type="button" id="boton">Reiniciar Juego</button>
+        </div>
+    </div>
+        <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+#welcome {
+  height: 750px;
+  font-family: 'Covered By Your Grace', cursive; 
+}
+#tablero {
+  width:310px;
+  height:310px;
+  padding:0px;
+  margin: 20px auto;
+  cursor:pointer;
+}
+.celda {
+  border-bottom: 5px solid #333;
+  border-right: 5px solid #333;
+  width:100px;
+  height:100px;
+  float:left;
+  margin:0px;
+  font-size: 90px;
+  text-align:center;
+}
+.celdas {
+  border-bottom: 5px solid #333;
+
+  width:100px;
+  height:100px;
+  float:left;
+  margin:0px;
+  font-size: 90px;
+  text-align:center;
+  font-family: cursive;
+}
+.x{
+  border-right: 5px solid #333;
+  width:100px;
+  height:100px;
+  float:left;
+  margin:0px;
+  font-size: 90px;
+  text-align:center;
+}
+.sheet2{
+  width:310px;
+  height:310px;
+  padding:0px;
+  margin: 20px auto;
+  cursor:pointer;
+}
