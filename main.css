@@ -2,7 +2,14 @@
   height: 750px;
   font-family: 'Covered By Your Grace', cursive; 
 }
-#tablero {
+#player {
+  width:310px;
+  height:310px;
+  padding:0px;
+  margin: 20px auto;
+  cursor:pointer;
+}
+#container{
   width:310px;
   height:310px;
   padding:0px;
